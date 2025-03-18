@@ -32,7 +32,7 @@ cargo install --path .
 ```
 
 ## Testnet Registration
-
+First of all, please follow us on [X](https://x.com/SoundnessLabs).
 To join the testnet, generate your keys and head to our `testnet-access` channel in [Discord](https://discord.gg/F4cGbdqgw8) and request access using:
 
 ```bash
@@ -75,7 +75,7 @@ soundness-cli export-key --name my-key
 
 > ⚠️ **Warning**: Keep your mnemonic phrase secure and never share it with anyone. Anyone with your mnemonic can access your key pair.
 
-### Sending Proofs
+<!-- ### Sending Proofs
 
 To send a proof and ELF file to the testnet server:
 
@@ -83,4 +83,4 @@ To send a proof and ELF file to the testnet server:
 soundness-cli send --proof-file path/to/proof.proof --elf-file path/to/program.elf --key-name my-key
 ```
 
-The request will be automatically signed using the specified key pair.
+The request will be automatically signed using the specified key pair. -->
